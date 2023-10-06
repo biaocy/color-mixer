@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/2.1d135e6e.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.b3b85e7e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.f7799610.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.3fe32618.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.90044679.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.8ebcb86b.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.c2e204e2.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div id="container" class="svelte-15qx1am"><div id="operand" class="svelte-15qx1am"><input type="color" id="left" class="color" value="#000000"> <input type="color" id="right" class="color" value="#ffffff"></div> <div id="result" class="color svelte-15qx1am" style="background-color: #808080;"></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_4t73tq = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.b3b85e7e.js"),
+						import("./_app/immutable/entry/app.3fe32618.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
